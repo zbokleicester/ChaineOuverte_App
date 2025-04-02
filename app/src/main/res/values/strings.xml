@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ChaineOuverte_App</string>
+    <string name="Register"> Inscription </string>
+    <string name="Login"> Connexion </string>
+    <string name="Email"> Email</string>
+    <string name="Mot_de_passe"> Mot de passe</string>
+    <string name="buttonInscription"> Inscription</string>
+    <string name="resultatInscription"> Inscription</string>
+    <string name="CreateAccount"> Créer un compte</string>
+    <string name="AlreadyAccount"> Retour a la connexion</string>
+    <string-array name="PostsHomepage">
+
+        <item>Choix 1</item>
+        <item>Choix 2</item>
+        <item>Choix 3</item>
+        <item>Choix 4</item>
+        <item>Choix 5</item>
+
+    </string-array>
+
+
+</resources>

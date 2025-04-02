@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/vertmilitaire"
+    android:padding="16dp"
+    tools:context=".Login">
+
+
+    <ImageView
+
+        android:id="@+id/ImageLogin"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/daryldixon" />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="example@gmail.com"
+        android:background="@color/white"
+        android:layout_marginTop="80dp"
+        android:layout_below="@id/ImageLogin"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/Mot_de_passe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_below="@id/Email"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <TextView
+
+        android:id="@+id/ErrorMdp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Red"
+        android:layout_below="@id/Mot_de_passe"
+        android:visibility="gone"
+        android:text="Mot de passe Incorrecte"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/buttonInscription"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:text="Connexion"
+        android:layout_below="@id/Mot_de_passe"
+        android:layout_marginTop="30dp"
+        app:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/CreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:gravity="right"
+        android:layout_toRightOf="@id/buttonInscription"
+        android:layout_alignBottom="@id/buttonInscription"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        tools:ignore="RtlHardcoded" />
+
+
+
+
+
+</RelativeLayout>
